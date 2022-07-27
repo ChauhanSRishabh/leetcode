@@ -1,2 +1,2 @@
 # leetcode
-Solution to all the problems I've solved on Leetcode
+Contains all the submissions I've made on Leetcode
