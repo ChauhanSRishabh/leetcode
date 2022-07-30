@@ -13,8 +13,8 @@ Output: "leetcode"
 class Solution {
 public:
     string restoreString(string s, vector<int>& indices) {
-         string shuffled; // string in cpp is a vector and so in order to perform operation on it as a character array, first specify the size of this vector
-         shuffled.resize(s.size());
+        char shuffled[s.length()+1]; // string as char array, length +1 for termination character
+        shuffled[s.length()] = '\0';
         
         for (int i=0; i<s.size(); i++)
         {
